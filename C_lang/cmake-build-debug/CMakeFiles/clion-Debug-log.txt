@@ -1,1 +1,0 @@
-CMakeLists.txt not found in C:\Users\ACER USER5949486\3D Objects\เรียน c , c++\C_lang Select CMakeLists.txt
