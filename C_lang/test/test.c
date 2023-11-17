@@ -1,9 +1,12 @@
 #include "stdio.h"
 
 void main(){
-    // for(int i = 1; i < 5; i++ , printf("%d" , i));
+    int arr[] = { 4 , 5 , 5 ,6 , 6};
+    int *pt = &arr[0];
+    *pt = 100;
 
-    for(int i = 1;i < 5; i++){
-        printf("%d" , i);
-    }
-}
+    printf("pt = %d\n" , *pt);
+    printf("arr[0] = %d" , arr[1]);
+
+
+}   
