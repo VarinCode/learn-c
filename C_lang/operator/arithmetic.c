@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-void main()
-{
+void main(){
     /*
         เครื่องหมายทางคณิตศาสตร์ที่ไว้ใชคำนวณได้แก่ (Arithmetic Operator)
         +   การบวก

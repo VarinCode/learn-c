@@ -1,12 +1,16 @@
 #include "stdio.h"
 
 void main(){
-    int arr[] = { 4 , 5 , 5 ,6 , 6};
-    int *pt = &arr[0];
-    *pt = 100;
+    int n[5] = {};
+    for(int i = 0; i < 5; i++){
+        int number;
+        printf("Enter number #%d : " , i + 1);
+        scanf("%d" , &number);
+        n[i] =  number;
+    }
 
-    printf("pt = %d\n" , *pt);
-    printf("arr[0] = %d" , arr[1]);
-
-
-}   
+    for(int i = 0; i < 5; i++){
+        printf("%d" , n[i]);
+        putchar('\n');
+    }
+}

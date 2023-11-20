@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+void main(){
     int num, sum, length;
     printf("Please select a multiplication table template >>> ");
     scanf("%d", &num);
