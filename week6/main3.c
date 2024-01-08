@@ -3,17 +3,26 @@
 
 int main(){
     float totalSalary = 0;
-    float salary[MONTHS] = {
-        250000.00, 250000.00, 250000.00, 250000.00, 250000.00, 
-        250000.00, 250000.00, 250000.00, 250000.00, 250000.00, 
-        250000.00, 250000.00
-    };
-    
-    printf("Result\n\n");
+    float salary[MONTHS];
+    float inputSalary;
+    short count = 0;
 
-    for(int i = 1; i <= MONTHS; i++){
-        totalSalary += salary[i];
-        printf("No Month : %d\n\n", i);
+    while(count != MONTHS){
+        printf("Enter salary for month %d : ", count + 1);
+        scanf("%f" , &inputSalary);
+        if(inputSalary < 15000){
+            printf("Salary is incorrect. Please enter a salary that is less than 15k\n");
+        } else {
+            salary[count] = inputSalary;
+            totalSalary += salary[count];
+            count++;
+        }
     }
-    printf("Total Salary %.2f" , totalSalary);
+
+    puts("Result\n");
+    for(int i = 1; i <= MONTHS; i++){
+        printf("No Month : %d\n", i);
+        printf("Salary : %g\n", salary[i - 1]);
+    }
+    printf("\nTotal Salary %g" , totalSalary);
 }
