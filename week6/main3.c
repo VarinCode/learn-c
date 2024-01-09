@@ -19,10 +19,10 @@ int main(){
         }
     }
 
-    puts("Result\n");
+    puts("\nResult");
     for(int i = 1; i <= MONTHS; i++){
         printf("No Month : %d\n", i);
-        printf("Salary : %g\n", salary[i - 1]);
+        printf("Salary : %.2f\n", salary[i - 1]);
     }
-    printf("\nTotal Salary %g" , totalSalary);
+    printf("\nTotal Salary %.2f" , totalSalary);
 }

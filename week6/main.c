@@ -9,6 +9,7 @@ struct sizeOfMatrix size = { .rows = 0, .cols = 0 };
 int getRows();
 int getColumns();
 void showMatrix(int rows, int columns, int matrix[rows][columns] , char name);
+void sumOfMatrix(int rows, int columns, int matrixA[rows][columns], int matrixB[rows][columns]);
 
 int main(){
     size.rows = getRows();
@@ -40,16 +41,7 @@ int main(){
         }
     }
     showMatrix(size.rows, size.cols, matrixB, B);
-
-    putchar('\n');
-    printf("***** Result *****\n");
-    for(short i = 0; i < size.rows; i++){
-        for(short j = 0; j < size.cols; j++){
-            printf("%d\t" , matrixA[i][j] + matrixB[i][j]);
-        }
-        putchar('\n');
-    }
-
+    sumOfMatrix(size.rows, size.cols, matrixA, matrixB);
 }
 
 int getRows(){
@@ -81,6 +73,16 @@ int getColumns(){
         }
     }
     return cols;
+}    
+
+void sumOfMatrix(int rows, int columns, int matrixA[rows][columns], int matrixB[rows][columns]){
+    printf("\n***** Result *****\n");
+    for(short i = 0; i < size.rows; i++){
+        for(short j = 0; j < size.cols; j++){
+            printf("%d\t" , matrixA[i][j] + matrixB[i][j]);
+        }
+        putchar('\n');
+    }
 }    
 
 void showMatrix(int rows, int columns, int matrix[rows][columns] , char name){
