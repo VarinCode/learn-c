@@ -2,6 +2,7 @@
 .vscode
 output
 .exe
+*.exe
 .idea
 .vs
 .vscode
