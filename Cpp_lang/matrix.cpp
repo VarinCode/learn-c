@@ -32,7 +32,7 @@ class Matrix {
                     break;
                 }
             }
-        }
+        };
 
         int getCols(){
             int columns;
