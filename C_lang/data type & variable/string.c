@@ -28,4 +28,16 @@ int main(){
 
     strcpy(txt4 , "เปลี่ยนเป็นข้อความใหม่");
     puts(txt4);
+
+    char text5[] = "i";
+    // เปรียบเทียบแล้วเป็นจริงค่าเท่ากันคืนค่าเป็นเลข 0 (true)
+    printf("%d" , strcmp(text5, "i")); // ถ้าข้อความที่เอามาเปรียบเทียบแล้วเท่ากันค่าผลลัพธ์ที่ได้คือเลข 0
+    putchar('\n');
+    // ไม่เป็นจริง คืนค่าเป็นเลขอื่นที่ไม่ใช้ 0 (false)
+    printf("%d" , strcmp(text5, "I"));
+
+    char text6[] = "1234567890";
+    printf("length of text6 : %d" , strlen(text6));
+    putchar('\n');
+    printf("%d" , strlen("adjdfrbfdgtr"));
 }
