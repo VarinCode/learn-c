@@ -1,3 +1,0 @@
-C:/Users/ACER USER5949486/Desktop/learn-c/week7/cmake-build-debug/CMakeFiles/week7.dir
-C:/Users/ACER USER5949486/Desktop/learn-c/week7/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/ACER USER5949486/Desktop/learn-c/week7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
