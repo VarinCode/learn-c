@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-
 int main(){
-    FILE *ptf;\
+    FILE *ptf;
     char mode[2] = "w";
     char pathProduct[] = "C:\\Users\\ACER USER5949486\\Desktop\\learn-c\\week9\\product.txt";
     char pathPrice[] = "C:\\Users\\ACER USER5949486\\Desktop\\learn-c\\week9\\price.txt";
