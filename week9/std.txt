@@ -1,0 +1,4 @@
+Student
+name = Warin Saipanya
+id = 6630250435
+GPA = 3.61
