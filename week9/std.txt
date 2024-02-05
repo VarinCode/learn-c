@@ -1,4 +1,30 @@
-Student
-name = Warin Saipanya
-id = 6630250435
-GPA = 3.61
+Student 1
+Name = Yada Arempaojeen
+id = 6630250087
+GPA = 3.5
+-------------
+
+Student 2
+Name = Ampuchinee Boonruk
+id = 6630250532
+GPA = 3.8
+-------------
+
+Student 3
+Name = Thitaree Khamkhiew
+id = 6630250559
+GPA = 4
+-------------
+
+Student 4
+Name = Thira-Atchai Likitprichanon
+id = 6630250192
+GPA = 2.3
+-------------
+
+Student 5
+Name = Atirut Wattanamongkol
+id = 6630250508
+GPA = 3.4
+-------------
+

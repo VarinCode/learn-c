@@ -17,7 +17,7 @@ int main(){
     printf("Enter your student id :");
     scanf("%s" , std.id);
 
-    printf("Enter your name :");
+    printf("Enter your firstname :");
     scanf("%s" , std.firstname);
 
     printf("Enter your lastname :");

@@ -4,6 +4,5 @@ project(week9 C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(week9
-#        main.c
-        main2.c
+        main.c
 )
