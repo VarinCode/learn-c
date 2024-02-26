@@ -5,18 +5,18 @@ using namespace std;
 class Dorm{
 private:
     int totalCost;
-    int watherCost;
+    int waterCost;
     int electricCost;
     int roomCharge;
 public:
-    Dorm(int wather, int electric, int room){
-        watherCost = wather;
+    Dorm(int water, int electric, int room){
+        waterCost = water;
         electricCost = electric;
         roomCharge = room;
         totalCost = watherCost + electricCost + roomCharge;
     }
     Dorm(){
-        watherCost = 0;
+        waterCost = 0;
         electricCost = 0;
         roomCharge = 0;
         totalCost = 0;
@@ -32,14 +32,14 @@ public:
 };
 
 typedef struct {
-    int wather, electric, room;
+    int water, electric, room;
 } allCost;
 
 int main(){
     allCost cost;
 
-    cout << "Enter wather cost:";
-    cin >> cost.wather;
+    cout << "Enter water cost:";
+    cin >> cost.water;
 
     cout << "Enter electric cost:";
     cin >> cost.electric;
@@ -47,7 +47,7 @@ int main(){
     cout << "Enter room charge:";
     cin >> cost.room;
 
-    Dorm dorm1(cost.wather, cost.electric, cost.room);
+    Dorm dorm1(cost.water, cost.electric, cost.room);
     Dorm dorm2(dorm1);
 
     cout << "Student dormitory fees = " << dorm2.getCost() << endl;
