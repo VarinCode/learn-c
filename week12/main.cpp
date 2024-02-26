@@ -1,3 +1,4 @@
+// แบบ Hierarchical Inheritance
 #include <iostream>
 using namespace std;
 

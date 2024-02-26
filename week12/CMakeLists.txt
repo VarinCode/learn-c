@@ -3,6 +3,6 @@ project(week12)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(week12 main.cpp,
-        main2.cpp
+add_executable(week12 main.cpp
+#        ,main2.cpp
 )
